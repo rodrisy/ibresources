@@ -68,3 +68,12 @@ a:hover {
 .btn-teal {
     background-color: #17a2b8;
 }
+
+
+.rainbow {
+    background: linear-gradient(90deg, red, orange, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
