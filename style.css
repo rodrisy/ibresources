@@ -77,3 +77,36 @@ a:hover {
     background-clip: text;
     color: transparent;
 }
+
+h4 {
+    font-size: 1.2em;
+    margin-top: 30px;
+}
+
+
+.card-container {
+    /* spacing between cards */
+    margin-bottom: 1.5rem;
+    /* space between rows */
+}
+
+.card {
+    padding: 1rem;
+    flex: 1;
+    /* optional: makes cards expand evenly */
+    text-align: center;
+
+    background: #0ff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+
+    width: 50%;
+    float: left;
+}
+
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
