@@ -81,15 +81,16 @@ a:hover {
 h4 {
     font-size: 1.2em;
     margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 
 .card-container {
     /* spacing between cards */
-    margin-bottom: 1.5rem;
+    margin-bottom: 15px;
     /* space between rows */
-    height: fit-content;
     width: 100%;
+    display: flex;
 }
 
 .card {
@@ -99,7 +100,7 @@ h4 {
     text-align: center;
 
     background: #eee;
-    margin: 5px 0;
+    margin: 0px 5px;
     padding: 10px;
     border-radius: 5px;
 
@@ -109,6 +110,11 @@ h4 {
 
 
 .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+li:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 }
