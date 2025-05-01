@@ -84,21 +84,25 @@ h4 {
     margin-bottom: 10px;
 }
 
+
 .card-container {
     display: flex;
-    gap: 10px;
-    padding: 10px 0;
-    flex-wrap: wrap;
+    flex-direction: row;
+    /* ensures horizontal alignment */
+    gap: 1rem;
+    /* spacing between cards */
+    margin-bottom: 1.5rem;
+    /* space between rows */
 }
 
 .card {
-    flex: 1 1 calc(50% - 10px);
-    padding: 10px;
-    border: 1px solid #ddd;
+    padding: 1rem;
+    border: 1px solid #ccc;
     border-radius: 8px;
-    text-align: center;
     background-color: #f9f9f9;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex: 1;
+    /* optional: makes cards expand evenly */
+    text-align: center;
 }
 
 .card:hover {
