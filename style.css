@@ -88,6 +88,8 @@ h4 {
     /* spacing between cards */
     margin-bottom: 1.5rem;
     /* space between rows */
+    height: fit-content;
+    width: 100%;
 }
 
 .card {
@@ -96,13 +98,13 @@ h4 {
     /* optional: makes cards expand evenly */
     text-align: center;
 
-    background: #0ff;
+    background: #eee;
     margin: 5px 0;
     padding: 10px;
     border-radius: 5px;
 
     width: 50%;
-    float: left;
+    height: 100%;
 }
 
 
