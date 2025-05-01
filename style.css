@@ -85,11 +85,6 @@ h4 {
 
 
 .card-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    /* ensures horizontal alignment */
-    gap: 1rem;
     /* spacing between cards */
     margin-bottom: 1.5rem;
     /* space between rows */
@@ -105,7 +100,11 @@ h4 {
     margin: 5px 0;
     padding: 10px;
     border-radius: 5px;
+
+    width: 50%;
+    float: left;
 }
+
 
 .card:hover {
     transform: translateY(-5px);
